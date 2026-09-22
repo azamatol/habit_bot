@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from telebot import types
 
 # ============ ВСТАВЬ СВОЙ ТОКЕН СЮДА ============
-TOKEN = "8998847939:AAG3qJ691RLYUB0Kxjh1V0Ql723o3MG1vYg"
+TOKEN = os.environ.get("TOKEN")
 # ===============================================
 
 bot = telebot.TeleBot(TOKEN)
